@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>今日の閲覧時間</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 10px;
+      width: 300px;
+    }
+    h2 {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      padding: 4px 0;
+      border-bottom: 2px solid #A8D5BA;
+      display: flex;
+      justify-content: space-between;
+    }
+    .domain {
+      font-weight: bold;
+    }
+    .time {
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h2>今日の閲覧時間</h2>
+  <ul id="timeList">
+    <li>読み込み中...</li>
+  </ul>
+  <script src="popup.js"></script>
+</body>
+</html>
